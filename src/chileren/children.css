@@ -1,0 +1,7 @@
+.navigation__dropdown {
+    display: none;
+}
+
+.navigation__dropdown--open {
+    display: block;
+}
