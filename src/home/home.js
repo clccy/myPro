@@ -15,7 +15,7 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        axios.get('/api/v1/product_trails')
+        axios.get('/api/v1/topology/world-topo')
             .then(res => {
                 const posts = res.data.data.children.map(obj => obj.data);
                 this.setState({ posts });

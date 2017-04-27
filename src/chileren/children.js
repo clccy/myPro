@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/3/22.
  */
-import React, {Component,PropTypes} from 'react';
+import React from 'react';
 import './children.css'
 var navigationConfig = [
     {
@@ -48,9 +48,9 @@ var Navigation = React.createClass({
         var items = config.map(function (item, index) {
             var children, dropdown;
             if (item.children) {
-                children = item.children.map(function (child) {
+                children = item.children.map(function (child,i) {
                     return (
-                        <li className="navigation__dropdown__item">
+                        <li className="navigation__dropdown__item" key={i}>
                             <a className="navigation__dropdown__link" href={ child.href }>
                                 { child.text }
                             </a>

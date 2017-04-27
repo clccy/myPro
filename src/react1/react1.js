@@ -1,7 +1,7 @@
 /**
  * Created by Administrator on 2017/3/22.
  */
-import React,{Component} from 'react';
+import React from 'react';
 const Reactone = React.createClass({
     getInitialState:function(){
         return {value: 'Hello Runoob!'};

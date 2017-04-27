@@ -1,8 +1,8 @@
 /**
  * Created by Administrator on 2017/3/22.
  */
-import React, {Component,PropTypes} from 'react';
-import superAgent from 'superagent'
+import React, {Component} from 'react';
+// import superAgent from 'superagent'
 import axios from 'axios';
 // var name = 'React';
 // const Vidtest = React.createClass({
